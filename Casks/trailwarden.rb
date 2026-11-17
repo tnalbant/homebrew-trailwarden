@@ -8,7 +8,7 @@
 
 cask "trailwarden" do
   version "0.2.0"
-  sha256 "REPLACE_WITH_DMG_SHA256"
+  sha256 "3645bde65a2d4c4364e21a0d427bae1a4a5d6981ac3e7913d6276c257b942782"
 
   url "https://github.com/tnalbant/trailwarden/releases/download/v#{version}/Trailwarden-#{version}.dmg"
   name "Trailwarden"

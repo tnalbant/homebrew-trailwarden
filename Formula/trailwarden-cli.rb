@@ -10,7 +10,7 @@ class TrailwardenCli < Formula
   desc "Local audit trail for coding agents (CLI + MCP server)"
   homepage "https://github.com/tnalbant/trailwarden"
   url "https://github.com/tnalbant/trailwarden/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "REPLACE_WITH_TARBALL_SHA256"
+  sha256 "072d185ec71bea9ff376fe651302d32e2ec6b2ef63ec9bdedf17066d4c81eb25"
   license "Apache-2.0"
 
   depends_on :macos
