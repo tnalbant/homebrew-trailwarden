@@ -7,8 +7,8 @@
 # `sha256` is filled in by scripts/publish.sh from the release's SHA256SUMS.
 
 cask "trailwarden" do
-  version "0.2.0"
-  sha256 "3645bde65a2d4c4364e21a0d427bae1a4a5d6981ac3e7913d6276c257b942782"
+  version "0.2.1"
+  sha256 "7c2539cdfb79c4df9ae42a705f4c63dc6a5e10d67aca25e56a2801e4362caf48"
 
   url "https://github.com/tnalbant/trailwarden/releases/download/v#{version}/Trailwarden-#{version}.dmg"
   name "Trailwarden"
