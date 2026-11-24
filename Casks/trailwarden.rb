@@ -4,11 +4,11 @@
 # Cask for the menu-bar app. Lives in tnalbant/homebrew-trailwarden, so users run:
 #   brew tap tnalbant/trailwarden && brew install --cask trailwarden
 #
-# `sha256` is filled in by scripts/publish.sh from the release's SHA256SUMS.
+# `sha256` is filled in by scripts/publish.sh from the release's SHA256SUMS. Leave the placeholder.
 
 cask "trailwarden" do
-  version "0.2.4"
-  sha256 "c78e19a5383796d0e14da00acd52e4a59aee932861b9bd21466d7ce728aba84c"
+  version "0.2.5"
+  sha256 "be2e414c92925c89810b8e77c264a0ce1b27dbcad1169f065def5b1b0cd304f7"
 
   url "https://github.com/tnalbant/trailwarden/releases/download/v#{version}/Trailwarden-#{version}.dmg"
   name "Trailwarden"

@@ -4,13 +4,13 @@
 # Formula for the command line tool and the MCP server, built from source.
 #   brew tap tnalbant/trailwarden && brew install trailwarden-cli
 #
-# `sha256` is filled in by scripts/publish.sh from the tag's tarball.
+# `sha256` is filled in by scripts/publish.sh from the tag's tarball. Leave the placeholder.
 
 class TrailwardenCli < Formula
   desc "Local audit trail for coding agents (CLI + MCP server)"
   homepage "https://github.com/tnalbant/trailwarden"
-  url "https://github.com/tnalbant/trailwarden/archive/refs/tags/v0.2.4.tar.gz"
-  sha256 "817710ce61e72cb2bd2d3d01ed948bc5553a1c284b548d890e7345797b0bfbe1"
+  url "https://github.com/tnalbant/trailwarden/archive/refs/tags/v0.2.5.tar.gz"
+  sha256 "212c5069622188f7e185f992dd9b8ab4809547a05048a39145398b36cc91d2ba"
   license "Apache-2.0"
 
   depends_on xcode: ["16.0", :build]
