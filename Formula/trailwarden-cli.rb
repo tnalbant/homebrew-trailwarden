@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-# Copyright (c) 2026 Turgay Nalbant
+# Copyright (c) 2026 tnalbant
 #
 # Formula for the command line tool and the MCP server, built from source.
 #   brew tap tnalbant/trailwarden && brew install trailwarden-cli
@@ -9,8 +9,8 @@
 class TrailwardenCli < Formula
   desc "Local audit trail for coding agents (CLI + MCP server)"
   homepage "https://github.com/tnalbant/trailwarden"
-  url "https://github.com/tnalbant/trailwarden/archive/refs/tags/v0.2.5.tar.gz"
-  sha256 "9f66fb2ab2c1a7cc08f6b37af6c60764cb2e762aa3ad8442c42507d706febcb6"
+  url "https://github.com/tnalbant/trailwarden/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "8f402e679365d3035ebaf304f8e68e071bf3cebee5b6cd0daf8d53ec844a32f4"
   license "Apache-2.0"
 
   depends_on xcode: ["16.0", :build]
